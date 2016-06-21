@@ -16,7 +16,25 @@
 # default port number without argument is 8080, if exists, generates random number
 # add npm packages to install to the node_apps array
 # change path to your app directory with app variable
-# dir structure:
+# dir structure (bower_components only has level 1 listed):
+# ├── app
+# │   ├── app.js
+# │   ├── controller.js
+# │   ├── factory.js
+# │   └── partials
+# │       └── home.html
+# ├── bower.json
+# ├── bower_components
+# │   ├── angular
+# │   ├── angular-ui-router
+# │   ├── bootstrap
+# │   ├── jquery
+# │   └── roboto-fontface
+# ├── index.html
+# ├── package.json
+# ├── scripts
+# └── styles
+#     └── main.css
 
 # boilerplate for index.html
 app_view() {
