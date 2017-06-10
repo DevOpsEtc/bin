@@ -4,8 +4,8 @@
 ##  filename: key_backup.sh                          ##
 ##  path:     ~/src/config/bin/                      ##
 ##  purpose:  USB key backup (Time Machine & Rsync)  ##
-##  date:     06/04/2016                             ##
-##  repo:     https://github.com/WebAppNut/bin       ##
+##  date:     06/24/2016                             ##
+##  repo:     https://github.com/DevOpsEtc/bin       ##
 ##  run:      $ key_backup.sh                        ##
 ##  alias:    $ alias kb='key_backup.sh'             ##
 #######################################################
@@ -250,8 +250,38 @@ backup() {
 
 	# rsync backup exclusions
 	rs_exclude=(
-		.DS_Store
-		node_modules/
+		'node_modules'
+    'bower_modules'
+    'vendor'
+    '$RECYCLE.BIN'
+    '$Recycle.Bin'
+    '.AppleDB'
+    '.AppleDesktop'
+    '.AppleDouble'
+    '.com.apple.timemachine.supported'
+    '.dbfseventsd'
+    '.DocumentRevisions-V100*'
+    '.DS_Store'
+    '.fseventsd'
+    '.PKInstallSandboxManager'
+    '.Spotlight*'
+    '.SymAV*'
+    '.symSchedScanLockxz'
+    '.TemporaryItems'
+    '.Trash*'
+    '.vol'
+    '.VolumeIcon.icns'
+    'Desktop DB'
+    'Desktop DF'
+    'hiberfil.sys'
+    'lost+found'
+    'Network Trash Folder'
+    'pagefile.sys'
+    'Recycled'
+    'RECYCLER'
+    'System Volume Information'
+    'Temporary Items'
+    'Thumbs.db'
 	)
 	# assign value of exclude switch loop
 	rs_exd_cmd="${rs_exclude[@]/#/--exclude=}"

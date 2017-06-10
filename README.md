@@ -8,7 +8,7 @@
 
 2. clone bin repo:
 
-    `git clone https://github.com/WebAppNut/bin $bin_dir`
+    `git clone https://github.com/DevOpsEtc/bin $bin_dir`
 
 3. append bin directory to existing $PATH statement:
 

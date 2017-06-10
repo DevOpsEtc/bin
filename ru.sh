@@ -5,7 +5,7 @@
 ##  path:     ~/src/config/bin/                               ##
 ##  purpose:  ru scaffolding; clone repos; pull repo updates  ##
 ##  date:     06/04/2016                                      ##
-##  repo:     https://github.com/WebAppNut/bin                ##
+##  repo:     https://github.com/DevOpsEtc/bin                ##
 ##  run:      $ ru.sh                                         ##
 ##  alias:    $ alias rgpl='ru.sh'                            ##
 ################################################################

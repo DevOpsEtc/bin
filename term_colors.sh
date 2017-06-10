@@ -4,7 +4,7 @@
 ##  path:     ~/src/config/bin/                         ##
 ##  purpose:  display color chart of terminal colors    ##
 ##  date:     06/04/2016                                ##
-##  repo:     https://github.com/WebAppNut/bin          ##
+##  repo:     https://github.com/DevOpsEtc/bin          ##
 ##  run:      $ term_colors.sh                          ##
 ##########################################################
 
